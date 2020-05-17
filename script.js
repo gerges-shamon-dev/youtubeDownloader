@@ -1,7 +1,7 @@
 let Btn = document.getElementById('btn');
 let URLinput = document.querySelector('.URL-input');
 let select = document.querySelector('.opt');
-let serverURL = 'http://localhost:4000';
+let serverURL = 'https://gerges-shamon-dev.github.io/youtubeDownloader/Server';
 
 Btn.addEventListener('click', () => {
 	if (!URLinput.value) {
